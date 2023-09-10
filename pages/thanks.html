@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <title>Contact - Genta</title>
+  </head>
+  <body class="font-[Inter] bg-[#2c2c2c] text-[#ffffff] overflow-x-hidden">
+    <!-- Header  -->
+    <div class="flex justify-between h-[175px] shadow-lg md:h-[263px] xl:h-[215px]">
+      <div class="m-auto text-start text-[8px] md:text-[20px]">
+        Hello <br />
+        <span class="text-[20px] text-[#FFB633] font-bold md:text-[44px]">I'm Genta <br /></span>
+        <p class="text-[10px] font-semibold md:text-[20px]">Graphic Designer <br /></p>
+      </div>
+      <div class="bg-[#FFB633] w-[135px] flex justify-between md:w-[316px] xl:w-[560px]">
+        <div class="w-[125px] -ml-[76px] md:w-[186px] md:h-[265px] md:-ml-24 overflow-hidden md:overflow-hidden xl:h-[215px]">
+          <img src="/assets/245_20221210202942.png" alt="Kids with Baloon" class="md:h-[263px] object-cover xl:h-[220px]" />
+        </div>
+        <button class="w-[17px] h-[14px] mt-4 mr-7 block md:hidden" id="hamburgerButton">
+          <i class="fas fa-bars"></i>
+          <!-- Ikon garis tiga dari Font Awesome -->
+        </button>
+        <nav class="hidden md:flex md:flex-col md:w-full md:justify-end md:gap-0">
+          <ul class="md:flex md:justify-center md:gap-2 md:text-[14px] md:mb-5 xl:text-[18pxh]">
+            <li>
+              <a href="/index.html">
+                <div>Home</div>
+              </a>
+            </li>
+            <li>
+              <a href="/pages/project.html"> Projects </a>
+            </li>
+            <li>
+              <a href="/pages/contact.html"> Contact</a>
+              <hr class="md:border-t-4 md:border-white md:mt-2" />
+            </li>
+          </ul>
+        </nav>
+        <nav class="hidden h-[175px] w-[135px] md:hidden absolute text-[13px] bg-[#313131] transition-transform duration-500 ease-in-out isiNavbar">
+          <ul class="flex flex-col justify-evenly gap-3 h-full w-full ml-3">
+            <button class="w-[17px] h-[17px] block ml-auto mr-[38px] mt-2" id="closeButton">
+              <i class="fas fa-xmark"></i>
+              <!-- Ikon garis tiga dari Font Awesome -->
+            </button>
+            <li class="">
+              <a href="/index.html"> Home </a>
+            </li>
+            <li class=""><a href="/pages/project.html"> Projects </a></li>
+            <li class=""><a href="/pages/contact.html"> Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- end Header  -->
+    <!-- Contact info -->
+    <div class="h-[500px] bg-[#313131] text-center flex flex-col justify-center">
+      <div class="font-extrabold text-[14px] md:text-[26px]">
+        Thanks for Contacting Me!
+        <hr class="border-t-4 border-[#FFB633] w-[60px] md:w-[105px] mx-auto" />
+      </div>
+      <div class="text-[10px] font-semibold md:text-[20px] mt-4">GENFi (2022)</div>
+      <a href="/pages/contact.html" class="bg-[#FFB633] w-[60px] h-[30px] md:w-[100px] md:h-[40px] rounded-sm mx-auto mt-5 text-[14px] md:text-[26px] font-bold">Back</a>
+    </div>
+    <!-- end Contact Info -->
+
+    <!-- footer  -->
+    <div class="h-[80px] text-[#2c2c2c] bg-white bottom-0 p-2 flex flex-col justify-center md:h-[160px]">
+      <div class="flex justify-center gap-4 font-bold text-[6px] mb-2 md:text-[10px]">
+        <div class="w-1/2 uppercase text-end">Contact</div>
+        <div class="w-1/2 uppercase">Social Media</div>
+      </div>
+      <div class="flex justify-center gap-4 font-medium text-[6px] md:text-[10px]">
+        <div class="w-1/2 text-end">gentafathan@gmail.com</div>
+        <div class="w-1/2"><i class="fa-brands fa-facebook"></i> Genta Fat-han Isyaias</div>
+      </div>
+
+      <div class="flex justify-center gap-4 font-medium text-[6px] md:text-[10px]">
+        <div class="w-1/2 text-end">082120742182</div>
+        <div class="w-1/2"><i class="fa-brands fa-instagram"></i> @gntfthnisy_</div>
+      </div>
+    </div>
+    <!-- end footer  -->
+    <script src="/scripts/script-contact.js"></script>
+  </body>
+</html>
